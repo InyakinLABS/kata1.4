@@ -6,7 +6,9 @@
     overflow-y: hidden;
     overflow-x: hidden;
 }
-
+.header-logo{
+    cursor: pointer;
+}
 .header-wrapper{
     display: flex;
     width: 320px;
