@@ -3,7 +3,7 @@
     width: 320px;
     height:1024px;
     box-shadow: 16px 0px 50px 0 #0E185033;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -28,6 +28,7 @@
     justify-content: flex-start;
     font-weight: 600;
     font-family: 'TT Lakes';
+    overflow-x: hidden;
 }
 
 .main-block__list-item{
@@ -52,7 +53,7 @@
     color: #7E7E82;
 
 }
-.main-block__list-item:hover{
+.main-block__list-item:hover,.main-block__list-item::before{
     background: no-repeat left url('../images/svg/highlight.svg');
 }
 .menu-footer__wrapper{
